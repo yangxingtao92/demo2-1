@@ -15,8 +15,8 @@ public class HelloController {
     @RequestMapping("/data")
     @ResponseBody
     public String data() {
-        System.out.println("---------data1----------");
+        System.out.println("---------data12----------");
 
-        return "hello word1";
+        return "hello word12";
     }
 }
